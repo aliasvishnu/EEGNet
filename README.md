@@ -1,11 +1,26 @@
 # EEGNet
 PyTorch implementation of EEGNet: A Compact Convolutional Network for EEG-based Brain-Computer Interfaces
-Original Paper - https://github.com/aliasvishnu/EEGNet
 
-Please open the .ipynb file for code.
-Would recommend not to use ELU, as I got inferior performance in my tests. 
+## Requirements
+* Python 2
+* Dataset of your own choice, works well with BCI Competition 3 Dataset 2.
+* Pytorch 0.2+
+* Jupyter notebook
 
-Please follow the data format specified in the notebook, otherwise Pytorch might throw up some data format errors. 
-Please raise a PR if you spot an error. 
+## Usage
+* GPU - 
+Just ```shift+enter``` everything.
+* No GPU -
+Remove all ```.cuda(0)``` before running. 
 
-Happy researching! If this helped you, please star the repo. 
+## Notes
+* I found ELU to work inferior, would not recommend. Linear units work better than ReLU as well.
+
+## Results
+* BCI Competition 3 Dataset 2 - Fmeasure (0.402)
+
+## Credits
+* Original paper - https://arxiv.org/abs/1611.08024
+* PyTorch documentation.
+
+Hope this helped you. Raise an issue if you spot errors or contact sriram@ucsd.edu.
