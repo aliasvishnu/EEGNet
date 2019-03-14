@@ -1,3 +1,5 @@
+Please visit https://github.com/vlawhern/arl-eegmodels for original author's code. 
+
 # EEGNet
 PyTorch implementation of EEGNet: A Compact Convolutional Network for EEG-based Brain-Computer Interfaces
 
