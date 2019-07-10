@@ -1,4 +1,4 @@
-Please visit https://github.com/vlawhern/arl-eegmodels for original author's code. 
+Original authors have uploaded their code here https://github.com/vlawhern/arl-eegmodels
 
 # EEGNet
 PyTorch implementation of EEGNet: A Compact Convolutional Network for EEG-based Brain-Computer Interfaces
@@ -16,7 +16,8 @@ Just ```shift+enter``` everything.
 Remove all ```.cuda(0)``` before running. 
 
 ## Notes
-* I found ELU to work inferior, would not recommend. Linear units work better than ReLU as well.
+* <strike>I found ELU to work inferior, would not recommend. Linear units work better than ReLU as well.</strike>
+* I found that ELU/Linear/ReLU are similar in performance. 
 
 ## Results
 * BCI Competition 3 Dataset 2 - Fmeasure (0.402)
